@@ -1,0 +1,94 @@
+/* common css start */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+}
+ul{
+ list-style-type: none;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.container{
+    width: 1170px ;
+    margin: auto;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+/* common css end  */
+
+/* navigation css start  */
+#nav{
+    background: #ffece1;
+    color:#649483;
+}
+#nav .row{
+    align-items: center;
+}
+#nav .logo{
+    width:20%;
+    
+}
+#nav .menu{
+    width: 50%;
+}
+#nav .logo img{
+    display: block;
+}
+#nav .search_bar{
+    width: 30%;
+} 
+#nav .menu ul{
+    justify-content: center ;
+}
+#nav .menu ul li a{
+    color:#649483;
+    padding: 42px 25.5px;
+    font-size: 19px;
+    transition: 0.7s;
+    font-weight: 400;
+
+}
+/* hover for menu  */
+#nav .menu ul li a:hover{
+    color:#dd7017;
+    background: #649483 ;
+    font-size: 19px;
+    padding: 8px 10px;
+    border-radius: 10px;
+    font-weight: 700;
+
+
+}
+#nav .search_bar .row{
+    justify-content: flex-end;
+}
+#nav .search_bar ul li a{
+    color:#649483;
+    padding: 10px 9px;
+    font-size: 19px;
+    font-weight: 700;
+}
+#nav .search_bar .button a{
+    background: #649483;
+    color: #ffece1;
+    padding: 8px 19px;
+    border-radius: 10px;
+    transition: 0.7s;
+    
+}
+/* hover for nutton  */
+#nav .search_bar .button a:hover{
+    background:#dd7017 ;
+    /* color: #649483; */
+    color: #ffece1;
+    
+}
+/* navigation css end  */
